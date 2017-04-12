@@ -1,3 +1,5 @@
-while(true) {
-	var a=1;
+var sanitized = function() {
+	while(true) {
+		var a=1;
+	}
 }
