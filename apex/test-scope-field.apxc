@@ -1,0 +1,4 @@
+public virtual with sharing class MyClass {
+	private Account c;
+	public String st = 'abc';
+}
