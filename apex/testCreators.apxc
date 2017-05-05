@@ -1,0 +1,11 @@
+public with sharing class TestCreators {
+	private String a;
+	private String b = null;
+	private String c = 'abc';
+	private List<String> d = null;
+	private List<String> e = new List<String>();
+	private List<String> f = new List<String>(d);
+	private List<String> g = new List<String>{'abc','def'};
+	private Map<Schema.SObjectField, Object> h = new Map<Schema.SObjectField, Object>{ f=>null };
+	
+}
